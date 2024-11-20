@@ -2,18 +2,24 @@
 {
     public class ProductDto
     {
-        public string image_id { get; set; }
+        public int id { get; set; }
 
-        public string caption { get; set; }
+        public string url { get; set; }
 
-        public string path { get; set; }
+        public string name { get; set; }
 
-        public string gender { get; set; }
+        public string size { get; set; }
 
-        public string product_type { get; set; }
+        public string category { get; set; }
 
-        public string product_id { get; set; }
+        public string price { get; set; }
 
-        public string image_type { get; set; }
+        public string color { get; set; }
+
+        public string sku { get; set; }
+
+        public string description { get; set; }
+
+        public string images { get; set; }
     }
 }
