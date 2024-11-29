@@ -1,4 +1,6 @@
-﻿namespace GenerateDataShop
+﻿using MongoDB.Bson;
+
+namespace GenerateDataShop
 {
     public class ProductEntity : BaseEntity
     {
@@ -12,7 +14,7 @@
 
         public int pQuantity { get; set; }
 
-        public string pCategory { get; set; }
+        public ObjectId pCategory { get; set; }
 
         public List<string> pImages { get; set; }
 

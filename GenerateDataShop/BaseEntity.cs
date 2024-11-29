@@ -15,7 +15,7 @@ namespace GenerateDataShop
         [JsonProperty("_id")]
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
-        public string Id { get; set; }
+        public ObjectId _id { get; set; }
         public DateTime createdAt { get; set; } = DateTime.UtcNow;
 
         public DateTime updatedAt { get; set; } = DateTime.UtcNow;
